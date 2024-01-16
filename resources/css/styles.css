@@ -89,3 +89,40 @@ nav a:active{
     width: 300px;
     margin-bottom: 10px;
 }
+
+#locations{
+    height: 500px;
+    width: 1200px;
+    background-image: url(../images/img-locations-background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-self: center;
+}
+
+#locations .section-title{
+    background-color: transparent;
+    margin-top: 50px;
+}
+
+#locations-container{
+    justify-content: space-around;
+}
+
+#locations-container ul{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+#locations-container li{
+    display: inline-flex;
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    height: 300px;
+    margin: 15px 40px;
+    align-self: center;
+    justify-items: center;
+    flex-direction: column;
+}
