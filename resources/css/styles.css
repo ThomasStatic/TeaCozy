@@ -6,6 +6,8 @@ body{
     background-color: black;
     opacity: 0.9;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 /* styles for top of page */
@@ -48,4 +50,22 @@ nav a:hover{
 
 nav a:active{
     color: rgb(245, 207, 180);
+}
+
+#mission{
+    display: flex;
+    height: 700px;
+    background-image: url(../images/img-mission-background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1200px;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission-text{
+    background-color: black;
+    width: 100%;
+    
 }
