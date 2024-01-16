@@ -126,3 +126,12 @@ nav a:active{
     justify-items: center;
     flex-direction: column;
 }
+
+footer{
+    height: 200px;
+}
+
+#copyright{
+    text-align: left;
+    margin-left: 20px;
+}
